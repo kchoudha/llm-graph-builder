@@ -5,7 +5,7 @@ ARG VITE_BACKEND_API_URL="http://localhost:8000"
 ARG VITE_REACT_APP_SOURCES=""
 ARG VITE_LLM_MODELS=""
 ARG VITE_GOOGLE_CLIENT_ID=""
-ARG VITE_BLOOM_URL="https://workspace-preview.neo4j.io/workspace/explore?connectURL={CONNECT_URL}&search=Show+me+a+graph&featureGenAISuggestions=true&featureGenAISuggestionsInternal=true"
+ARG VITE_BLOOM_URL="https://workspace-preview.neo4j.io/workspace/explore?connectURL=neo4j+s://neo4j:TPXFZniZLVeafpH6u6n7yhSOjINRrcNrjpZN0FeHNDs@73222e92.databases.neo4j.io&search=Show+me+a+graph&featureGenAISuggestions=true&featureGenAISuggestionsInternal=true"
 ARG VITE_TIME_PER_PAGE=50
 ARG VITE_LARGE_FILE_SIZE=5242880
 ARG VITE_CHUNK_SIZE=5242880
